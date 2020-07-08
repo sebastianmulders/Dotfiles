@@ -1,0 +1,6 @@
+[core]
+	excludesfile = ~/.gitignore_global
+
+[user]
+	name = Sebastian Mulders
+	email = sbstn@hey.com
