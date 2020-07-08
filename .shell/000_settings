@@ -1,7 +1,11 @@
 # Locales
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
 
 # ZSH
 export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=500
 export HIST_STAMPS="dd-mm-yyyy"
+
+# Misc
+export REACT_EDITOR=webstorm
