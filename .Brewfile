@@ -7,10 +7,13 @@ tap 'homebrew/cask-versions'
 tap 'homebrew/services'
 
 # Essentials
+brew 'kryptco/tap/kr'
 brew 'editorconfig'
 brew 'node'
 brew 'php'
 brew 'composer'
+brew 'jq'
+brew 'vim'
 brew 'starship'
 brew 'getantibody/tap/antibody'
 brew 'yarn'

@@ -18,7 +18,7 @@ if [ "$SYSTEM_TYPE" = "Darwin" ]; then
 
 fi
 
-# Set iTerm2 prefs folder to ~/.iterm2
+# # Set iTerm2 prefs folder to ~/.iterm2
 if [ "$SYSTEM_TYPE" = "Darwin" ]; then
 
   if [ -d "$HOME/.iterm2" ]; then
@@ -29,7 +29,12 @@ if [ "$SYSTEM_TYPE" = "Darwin" ]; then
 
 fi
 
-# Set yadm origin url to ssh
+# Running other bootstrap-scripts
+for file in bootstrap-scripts/*; do
+  sh $file
+done
+
+# # Set yadm origin url to ssh
 echo "Updating the yadm origin to ssh.."
 yadm remote set-url origin "$SSH_REPO_URL"
 
