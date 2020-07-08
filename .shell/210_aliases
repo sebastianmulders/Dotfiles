@@ -1,0 +1,4 @@
+alias rn="npx react-native"
+alias pa="php artisan"
+alias pi="ssh pi@192.168.1.131"
+alias ls="exa -a --icons ${@}"

@@ -1,0 +1,9 @@
+# The autocompletion scripts are provided by ZSH antibody plugin manager
+autoload -Uz compinit
+for dump in ~/.zcompdump(N.mh+24); do
+  compinit
+done
+compinit -C
+
+# Then we load our own
+source /usr/local/etc/bash_completion.d/az

@@ -1,0 +1,4 @@
+source ~/.zsh_plugins.sh
+
+# Run `antibodyUpdate` after adding a new plugin!
+# See 200_functions
