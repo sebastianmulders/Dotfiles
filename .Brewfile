@@ -22,6 +22,7 @@ brew 'vim'
 brew 'sqlite'
 brew 'zsh'
 brew 'exa'
+brew 'svn'
 
 # Useful addons
 cask 'quicklook-csv'
