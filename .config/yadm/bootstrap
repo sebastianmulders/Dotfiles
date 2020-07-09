@@ -5,7 +5,7 @@ SSH_REPO_URL="git@github.com:basbassbasss/Dotfiles.git"
 
 if [ "$SYSTEM_TYPE" = "Darwin" ]; then
 
-  # install homebrew if it's missing
+# Install homebrew if it's missing
   if ! command -v brew >/dev/null 2>&1; then
     echo "Installing homebrew"
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -18,7 +18,7 @@ if [ "$SYSTEM_TYPE" = "Darwin" ]; then
 
 fi
 
-# # Set iTerm2 prefs folder to ~/.iterm2
+# Set iTerm2 prefs folder to ~/.iterm2
 if [ "$SYSTEM_TYPE" = "Darwin" ]; then
 
   if [ -d "$HOME/.iterm2" ]; then
@@ -30,7 +30,7 @@ if [ "$SYSTEM_TYPE" = "Darwin" ]; then
 fi
 
 # Running other bootstrap-scripts
-for file in bootstrap-scripts/*; do
+for file in "$HOME/.config/yadm/bootstrap-scripts/*"; do
   sh $file
 done
 
