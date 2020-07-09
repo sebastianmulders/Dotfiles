@@ -699,16 +699,26 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>32340CBB-5DEE-4D8C-880A-11641401DB31</string>
+	<key>DisableFullscreenTransparency</key>
+	<false/>
+	<key>EnableDivisionView</key>
+	<false/>
+	<key>EnableProxyIcon</key>
+	<false/>
+	<key>FlashTabBarInFullscreen</key>
+	<false/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
+	<key>HideScrollbar</key>
+	<false/>
+	<key>HideTab</key>
+	<true/>
+	<key>HideTabNumber</key>
+	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
-	<key>NSNavLastRootDirectory</key>
-	<string>~/Repositories</string>
-	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{799, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -717,11 +727,6 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
-	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
-	<array>
-		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
-		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
-	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -745,27 +750,8 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
-	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>0 138 224 275 0 0 1680 1027 </string>
-	<key>NSWindow Frame NSNavPanelAutosaveName</key>
-	<string>880 741 799 448 0 0 2560 1417 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 377 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1281 252 570 402 0 0 2560 1417 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>3161 342 479 807 2560 212 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>3692 341 479 807 2560 212 1680 1027 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>32 974 570 402 0 0 2560 1417 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
-	<string>1057 70 1277 1347 0 0 2560 1417 </string>
+	<string>842 617 570 408 0 0 1680 1025 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2452,9 +2438,9 @@
 			<key>Name</key>
 			<string>Sebastian</string>
 			<key>Non Ascii Font</key>
-			<string>HackNerdFontComplete-Regular 11</string>
+			<string>FiraCodeNerdFontCompleteM-Retina 15</string>
 			<key>Non-ASCII Anti Aliased</key>
-			<true/>
+			<false/>
 			<key>Non-ASCII Ligatures</key>
 			<true/>
 			<key>Normal Font</key>
@@ -2526,7 +2512,7 @@
 			<key>Use Non-ASCII Font</key>
 			<true/>
 			<key>Vertical Spacing</key>
-			<real>1</real>
+			<real>1.02</real>
 			<key>Visual Bell</key>
 			<true/>
 			<key>Window Type</key>
@@ -2537,35 +2523,27 @@
 	</array>
 	<key>NoSyncAllAppVersions</key>
 	<array>
-		<string>3.3.9</string>
-		<string>3.3.11</string>
 		<string>3.3.12</string>
 	</array>
 	<key>NoSyncBFPRecents</key>
 	<array>
-		<string>Hack Nerd Font</string>
-		<string>JetBrains Mono</string>
-		<string>Monaco</string>
+		<string>FiraCode Nerd Font Mono</string>
 		<string>Fira Code</string>
 	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {2560, 1440}}</string>
+		<string>{{0, 0}, {1680, 1050}}</string>
 		<key>topLeft</key>
-		<string>{269, 598}</string>
+		<string>{769, 970}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
-	<string>8F497D91-7BA7-4EFB-A7D7-150759824609</string>
-	<key>NoSyncLastTipTime</key>
-	<real>610878192.55501997</real>
+	<string>0CF18401-024E-4723-B8FA-807A8F5D7E39</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>63</integer>
+	<integer>8</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>608118622.68903399</real>
+	<real>616095203.27060294</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
-	<true/>
-	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
@@ -2923,14 +2901,6 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentTab.currentSession.terminalWindowName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>currentTab</string>
@@ -2989,7 +2959,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.path</string>
+				<string>currentTab.currentSession.commandLine</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -2997,7 +2967,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.commandLine</string>
+				<string>currentTab.currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3208,7 +3178,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.path</string>
+				<string>currentSession.pid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3216,7 +3186,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.pid</string>
+				<string>currentSession.path</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -3274,22 +3244,7 @@
 		</array>
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>607768894.51588595</real>
-	<key>NoSyncTipsDisabled</key>
-	<true/>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>0006</string>
-		<string>0003</string>
-		<string>0000</string>
-		<string>0007</string>
-		<string>0004</string>
-		<string>0001</string>
-		<string>000</string>
-		<string>0005</string>
-		<string>0002</string>
-		<string>0008</string>
-	</array>
+	<real>615922403.27040696</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -3330,22 +3285,28 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=72</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=17</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-07T11:56:29Z</date>
+	<date>2020-07-08T17:33:49Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
-	<key>SUUpdateGroupIdentifier</key>
-	<integer>2358523312</integer>
-	<key>SUUpdateRelaunchingMarker</key>
-	<false/>
+	<key>ShowFullScreenTabBar</key>
+	<true/>
 	<key>SoundForEsc</key>
 	<false/>
+	<key>StretchTabsToFillBar</key>
+	<true/>
 	<key>TabStyleWithAutomaticOption</key>
 	<integer>0</integer>
+	<key>TabsHaveCloseButton</key>
+	<true/>
+	<key>UseBorder</key>
+	<false/>
 	<key>VisualIndicatorForEsc</key>
+	<false/>
+	<key>WindowNumber</key>
 	<false/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>

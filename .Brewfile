@@ -48,6 +48,7 @@ cask 'telegram'
 
 # Fonts
 cask 'font-fira-code'
+cask 'font-fira-code-nerd-font'
 cask 'font-bebas-neue'
 cask 'font-ibm-plex'
 cask 'font-jetbrains-mono'
