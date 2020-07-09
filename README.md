@@ -4,6 +4,8 @@ Personal macOS setup from scratch using [yadm](https://yadm.io).
 
 ## Pre-setup
 
+### Install XCode + developer tools manually
+
 ### Install `homebrew`
 
 ```bash
