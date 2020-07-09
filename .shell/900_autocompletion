@@ -1,10 +1,12 @@
 # The autocompletion scripts are provided by ZSH antibody plugin manager
-# https://gist.github.com/ctechols/ca1035271ad134841284#gistcomment-3038548
+# https://carlosbecker.com/posts/speeding-up-zsh/
+
+# To fix potential compinit: insecure directories warnings, run:
+# compaudit | xargs chmod g-w
 
 autoload -Uz compinit
-if [[ -n ~/.zcompdump(#qN.mh+24) ]]; then
+if [ $(date +'%j') != $(stat -f '%Sm' -t '%j' ~/.zcompdump) ]; then
   compinit
-  touch .zcompdump
 else
   compinit -C
 fi
