@@ -23,6 +23,7 @@ brew 'sqlite'
 brew 'zsh'
 brew 'exa'
 brew 'svn'
+brew 'ruby'
 
 # Useful addons
 cask 'quicklook-csv'
