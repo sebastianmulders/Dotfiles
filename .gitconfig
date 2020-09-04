@@ -3,10 +3,11 @@
 
 [user]
 	name = Sebastian Mulders
-	email = sbstn@hey.com
 [gpg]
 	program = /usr/local/bin/krgpg
 [commit]
 	gpgSign = true
 [tag]
 	forceSignAnnotated = true
+[pull]
+	ff = only
