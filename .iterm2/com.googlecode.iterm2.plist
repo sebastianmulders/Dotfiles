@@ -727,6 +727,11 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
+	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
+	<array>
+		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
+		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
+	</array>
 	<key>NSTableView Columns v2 KeyBingingTable</key>
 	<data>
 	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
@@ -750,8 +755,17 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
+	<key>NSWindow Frame NSColorPanel</key>
+	<string>0 144 224 278 0 0 2560 1415 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>842 617 570 408 0 0 1680 1025 </string>
+	<string>1 63 1277 1352 0 0 2560 1415 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>1281 63 1277 1352 0 0 2560 1415 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -2525,26 +2539,23 @@
 	<array>
 		<string>3.3.12</string>
 	</array>
-	<key>NoSyncBFPRecents</key>
-	<array>
-		<string>FiraCode Nerd Font Mono</string>
-		<string>Fira Code</string>
-	</array>
 	<key>NoSyncFrame_SharedPreferences</key>
 	<dict>
 		<key>screenFrame</key>
-		<string>{{0, 0}, {1680, 1050}}</string>
+		<string>{{0, 0}, {2560, 1440}}</string>
 		<key>topLeft</key>
-		<string>{769, 970}</string>
+		<string>{958, 1128}</string>
 	</dict>
 	<key>NoSyncInstallationId</key>
-	<string>0CF18401-024E-4723-B8FA-807A8F5D7E39</string>
+	<string>F5670073-4735-44C2-A092-B20A1195997B</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>8</integer>
+	<integer>24</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>616095203.27060294</real>
+	<real>621328790.38953495</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
 		<key>0</key>
@@ -2901,6 +2912,14 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentTab.currentSession.terminalWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>currentTab</string>
@@ -3244,7 +3263,9 @@
 		</array>
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>615922403.27040696</real>
+	<real>620986517.65594304</real>
+	<key>OnlyWhenMoreTabs</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -3280,16 +3301,18 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/sebastian/.iterm2</string>
+	<key>PromptOnQuit</key>
+	<false/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=17</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=21</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-07-08T17:33:49Z</date>
+	<date>2020-09-26T08:03:50Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
