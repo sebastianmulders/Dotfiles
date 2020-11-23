@@ -1,35 +1,29 @@
 # Don't print a new line at the start of the prompt
 add_newline = false
 
-prompt_order = [
-  "username",
-  "hostname",
-  "directory",
-  "git_branch",
-  "git_state",
-  "git_status",
-  "golang",
-  "kubernetes",
-  "nix_shell",
-  "aws",
-  "cmd_duration",
-  "jobs",
-  "battery",
-  "line_break",
-  "time",
-  "character",
-]
+format = """\
+  $username\
+  $hostname\
+  $directory\
+  $git_branch\
+  $git_commit\
+  $git_state\
+  $git_status\
+  $cmd_duration\
+  $custom\
+  $line_break\
+  $jobs\
+  $battery\
+  $time\
+  $character\
+  """
 
 [character]
-symbol = "➜"
-error_symbol = "✖"
-use_symbol_for_status = true
+success_symbol = "[➜](bold green)"
+error_symbol = "[✖](bold red)"
 
 [directory]
-style = "bold blue"
-
-[git_state]
-progress_divider = " of "
+format = "[$path]($style)[$read_only]($read_only_style) "
 
 [java]
 disabled = true
@@ -41,12 +35,11 @@ disabled = true
 disabled = true
 
 [time]
-format = "%H:%M:%S"
+time_format = "%H:%M:%S"
 style = "bold dimmed black"
+format = "[$time]($style) "
 disabled = false
 
 [username]
-disabled = false
 show_always = true
-style_root = "bold red"
 style_user = "bold green"
