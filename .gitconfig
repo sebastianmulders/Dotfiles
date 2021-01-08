@@ -3,6 +3,7 @@
 
 [user]
 	name = Sebastian Mulders
+	email = 
 [gpg]
 	program = /usr/local/bin/krgpg
 [commit]
@@ -11,3 +12,5 @@
 	forceSignAnnotated = true
 [pull]
 	ff = only
+[push]
+	default = current

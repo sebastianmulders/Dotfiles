@@ -4,6 +4,11 @@
 .phpstorm.meta.php
 _ide_helper.php
 _ide_helper_models.php
+phpstorm.config.js
+webstorm.config.js
+
+.remote-schema.graphql
+.graphqlconfig
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
