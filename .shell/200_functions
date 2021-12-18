@@ -1,10 +1,3 @@
-function updateAntibody() {
-    antibody bundle < ~/.zsh_plugins.txt
-    rm ~/.zcompdump*
-    rm -rf ~/.zcompcache
-}
-
-
 function digga() {
 	dig +nocmd "$1" any +multiline +noall +answer
 }

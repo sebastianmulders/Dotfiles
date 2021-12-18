@@ -38,4 +38,7 @@ done
 echo "Updating the yadm origin to ssh.."
 yadm remote set-url origin "$SSH_REPO_URL"
 
+echo "Init sheldon"
+sheldon init --shell zsh
+
 echo "Done!"
