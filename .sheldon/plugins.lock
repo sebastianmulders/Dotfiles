@@ -1,0 +1,47 @@
+version = "0.6.5"
+home = "/Users/sebastian"
+config_dir = "/Users/sebastian/.sheldon"
+data_dir = "/Users/sebastian/.sheldon"
+config_file = "/Users/sebastian/.sheldon/plugins.toml"
+lock_file = "/Users/sebastian/.sheldon/plugins.lock"
+clone_dir = "/Users/sebastian/.sheldon/repos"
+download_dir = "/Users/sebastian/.sheldon/downloads"
+
+[[plugins]]
+name = "fast-syntax-highlighting"
+source_dir = "/Users/sebastian/.sheldon/repos/github.com/zdharma-continuum/fast-syntax-highlighting"
+files = ["/Users/sebastian/.sheldon/repos/github.com/zdharma-continuum/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh"]
+apply = ["source"]
+
+[[plugins]]
+name = "completions"
+source_dir = "/Users/sebastian/.sheldon/repos/github.com/zsh-users/zsh-completions"
+files = ["/Users/sebastian/.sheldon/repos/github.com/zsh-users/zsh-completions/zsh-completions.plugin.zsh"]
+apply = ["source"]
+
+[[plugins]]
+name = "autosuggestions"
+source_dir = "/Users/sebastian/.sheldon/repos/github.com/zsh-users/zsh-autosuggestions"
+files = ["/Users/sebastian/.sheldon/repos/github.com/zsh-users/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh"]
+apply = ["source"]
+
+[[plugins]]
+name = "history-substring-search"
+source_dir = "/Users/sebastian/.sheldon/repos/github.com/zsh-users/zsh-history-substring-search"
+files = ["/Users/sebastian/.sheldon/repos/github.com/zsh-users/zsh-history-substring-search/zsh-history-substring-search.plugin.zsh"]
+apply = ["source"]
+[templates.PATH]
+value = "export PATH=\"{{ dir }}:$PATH\""
+each = false
+
+[templates.path]
+value = "path=( \"{{ dir }}\" $path )"
+each = false
+
+[templates.fpath]
+value = "fpath=( \"{{ dir }}\" $fpath )"
+each = false
+
+[templates.source]
+value = "source \"{{ file }}\""
+each = true
