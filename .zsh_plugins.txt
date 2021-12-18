@@ -7,5 +7,5 @@ zsh-users/zsh-completions
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-history-substring-search
 
-zdharma/fast-syntax-highlighting
+zdharma-continuum/fast-syntax-highlighting
 caarlos0/ports
